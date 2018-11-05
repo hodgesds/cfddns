@@ -1,0 +1,63 @@
+hash: 0d8e4c91c0be001a89007cb2151129f0e68e6cf8dd72562fd239dbdf97de63bb
+updated: 2018-11-04T15:29:39.599212332-05:00
+imports:
+- name: github.com/cloudflare/cloudflare-go
+  version: 1f9007fbecae20711133c60519338c41cef1ffb4
+- name: github.com/fsnotify/fsnotify
+  version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
+- name: github.com/hashicorp/hcl
+  version: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/magiconair/properties
+  version: c2353362d570a7bfa228149c62842019201cfb71
+- name: github.com/mitchellh/mapstructure
+  version: 3536a929edddb9a5b34bd6861dc4a9647cb459fe
+- name: github.com/pelletier/go-toml
+  version: 81a861c69d25a841d0c4394f0e6f84bc8c5afae0
+- name: github.com/pkg/errors
+  version: 059132a15dd08d6704c67711dae0cf35ab991756
+- name: github.com/spf13/afero
+  version: d40851caa0d747393da1ffb28f7f9d8b4eeffebd
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 8c9545af88b134710ab1cd196795e7f2388358d7
+- name: github.com/spf13/cobra
+  version: fe5e611709b0c57fa4a89136deaa8e1d4004d053
+- name: github.com/spf13/jwalterweatherman
+  version: 94f6ae3ed3bceceafa716478c5fbf8d29ca601a1
+- name: github.com/spf13/pflag
+  version: 082b515c9490f4eccc758469c3152b77d139f868
+- name: github.com/spf13/viper
+  version: 62edee319679b6ceaec16de03b966102d2dea709
+- name: golang.org/x/net
+  version: c10e9556a7bc0e7c942242b606f0acf024ad5d6a
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 9b800f95dbbc54abff0acf7ee32d88ba4e328c89
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 6f44c5a2ea40ee3593d98cdcc905cc1fdaa660e2
+  subpackages:
+  - transform
+  - unicode/norm
+- name: golang.org/x/time
+  version: fbb02b2291d28baffd63558aa44b4b56f178d650
+  subpackages:
+  - rate
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []

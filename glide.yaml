@@ -1,0 +1,10 @@
+package: github.com/hodgesds/cfddns
+import:
+- package: github.com/spf13/cobra
+  version: fe5e611709b0c57fa4a89136deaa8e1d4004d053
+- package: github.com/spf13/viper
+  version: 62edee319679b6ceaec16de03b966102d2dea709
+- package: github.com/spf13/pflag
+  version: 082b515c9490f4eccc758469c3152b77d139f868
+- package: github.com/cloudflare/cloudflare-go
+  version: ~0.8.5
